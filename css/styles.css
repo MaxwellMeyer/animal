@@ -2,6 +2,21 @@
   display: none;
 }
 img {
-  width: 30px;
-  height: 30p;
+  height: 550px;
+  width: 600px;
+}
+body {
+  background: linear-gradient(to right, cyan, rgb(17, 17, 255));
+}
+.buttons {
+  padding-top: 75px;
+}
+.jumbotron {
+  background: rgb(255, 0, 170)
+}
+.animal {
+  text-align: center;
+}
+.animalContent {
+  padding-top: 25px;
 }

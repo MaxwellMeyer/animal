@@ -1,11 +1,17 @@
 $(document).ready(function() {
   $(".Turtles").click(function() {
-    $("#turtle").fadeToggle();
+    $("#turtle").fadeIn();
+    $("#snake").hide();
+    $("#bear").hide();
   })
   $(".Snakes").click(function() {
-    $("#snake").fadeToggle();
+    $("#snake").fadeIn();
+    $("#bear").hide();
+    $("#turtle").hide();
   })
   $(".Bears").click(function() {
-    $("#bear").fadeToggle();
+    $("#bear").fadeIn();
+    $("#snake").hide();
+    $("#turtle").hide();
   })
 });
